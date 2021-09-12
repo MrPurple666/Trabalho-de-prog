@@ -1,3 +1,5 @@
+#Version 1 by MrPurple666
+#Codename = DragonMushroomGray
 l = []
 
 for _ in range (10):
