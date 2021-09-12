@@ -5,7 +5,7 @@ for _ in range (10):
 
 a = sorted(l)
 
-print (a,'organizado:')
+print ('organizado:',a)
 
 j = 0
 for i in l:
