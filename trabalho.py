@@ -1,5 +1,7 @@
 #Version 1 by MrPurple666
 #Codename = DragonMushroomGray
+#Creation date = 03/09/2021 03:35
+
 l = []
 
 for _ in range (10):
