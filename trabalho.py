@@ -6,7 +6,7 @@ i = input('digite seu numero:')
 l = i.split(',')
 
 #l = sorted(l)
-l = l.sort(reverse = True)
+l = l.sort(reverse = False)
 print(l)
 
 j = 0
