@@ -1,6 +1,6 @@
-#Version 1 by MrPurple666
-#Codename = DragonMushroomGray
-#Creation date = 03/09/2021 03:35
+#Version 2 by MrPurple666
+#Codename = RoyaleNight
+#Creation date = 10/09/2021 05:32
 
 i = input('digite seu numero:')
 l = i.split(',')
