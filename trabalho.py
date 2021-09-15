@@ -1,13 +1,15 @@
-#Version 2 by MrPurple666
-#Codename = RoyaleNight
-#Creation date = 10/09/2021 05:32
+#Version 3 by MrPurple666
+#Codename = PokemonXDLugia
+#Creation date = 14/09/2021 23:05
 
-i = input('digite seu numero:')
+i = input()
 l = i.split(',')
+lInt = []
 
-#l = sorted(l)
-l = l.sort(reverse = False)
-print(l)
+for i in l:
+ lInt.append(int(i))
+
+print(sorted(lInt,reverse=True))
 
 j = 0
 for i in l:
