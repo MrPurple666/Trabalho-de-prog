@@ -20,7 +20,7 @@
             media = media + parseInt(a)
         }
         
-        sorted = numbers.sort(function(a, b) {return a - b;});
+        sorted = numbers.sort(function(a, b) {return b - a;});
         
         document.getElementById('Sorted').innerHTML = sorted
         document.getElementById('Media').innerHTML = media /numbers.length
