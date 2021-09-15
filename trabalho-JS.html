@@ -19,6 +19,12 @@
             a = numbers[i]
             media = media + parseInt(a)
         }
+
+         for (i in impares) {
+          if (numbers%2 == 1)
+          numbers = impares
+          impares = impares 
+        }
         
         sorted = numbers.sort(function(a, b) {return b - a;});
         
