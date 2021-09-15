@@ -1,0 +1,32 @@
+<html>
+    <div>
+        <h1 id='Media'></h1>
+        <h1 id='Sorted'></h1>
+        <h1 id='impares'></h1>
+        <input id='Numbers' type="text">
+        <button onclick="tst()">Calcular</button>
+    </div>
+</html>
+
+<script>
+    function tst(){
+
+        numbers = document.getElementById('Numbers').value.split(' ')
+
+        media = 0
+
+        for (i in numbers) {
+            a = numbers[i]
+            media = media + parseInt(a)
+        }
+        
+        sorted = numbers.sort(function(a, b) {return a - b;});
+        
+        document.getElementById('Sorted').innerHTML = sorted
+        document.getElementById('Media').innerHTML = media /numbers.length
+       document.getElementById('impares').innerHTML = impares
+      
+    }
+
+
+</script>
