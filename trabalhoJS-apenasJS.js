@@ -1,3 +1,4 @@
+//not work
     function tst(){
 
         numbers = document.getElementById('Numbers').value.split(' ')
