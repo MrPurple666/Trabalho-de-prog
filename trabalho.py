@@ -9,22 +9,22 @@ IInt = []
 pares = []
 impares = []
 
-for x in y
-IInt.append(int(x))
+for x in y:
+    IInt.append(int(x))
 
-print ("Lista em ordem decrescente:")
-print(sorted(IInt,reverse=True))
+print("Lista em ordem decrescente:")
+print(sorted(IInt, reverse=True))
 
 z = 0
 for x in y:
-z = z + int(x)
+    z = z + int(x)
 
 for f in IInt:
-if f % 2 == 0:
-pares.append(f)
-else:
-impares.append(f)
+    if f % 2 == 0:
+        pares.append(f)
+    else:
+        impares.append(f)
 
 print("impares:")
 print(impares)
-print("media=",z/len(y))
+print("media=", z/len(y))
